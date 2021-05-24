@@ -1,0 +1,181 @@
+.container
+    width: 100%
+
+.what
+    margin: 0
+    .what__row
+        display: flex
+        background: #F6F6F4
+    img
+        flex: 1 1 50%
+    //max-width: 100%
+    .what__body
+        flex: 1 1 50%
+        margin-top: 10%
+        margin-left: 8%
+        padding: 0 38px 0 38px
+        background: #F6F6F4
+        .what__login-block
+            display: flex
+            flex-direction: column
+            max-width: 289px
+            width: 100%
+            .what__title
+                /* Member Login */
+                max-width: 283px
+                width: 100%
+                height: 24px
+                font-family: BPreplay
+                font-style: normal
+                font-weight: bold
+                font-size: 24px
+                line-height: 30px
+                text-align: center
+                letter-spacing: 0.05em
+                color: #518371
+            .what__form
+                margin-top: 5%
+
+                input
+                    width: 260px
+                    height: 40px
+                    border-radius: 10px
+                    border: none
+                    background: #ffffff
+                    outline: none
+                    margin-bottom: 8px
+                    margin-top: 8px
+                    font-size: 16px
+                    padding: 0 10px
+                    left: calc(50% - 280px/2)
+                    &::-webkit-input-placeholder
+                    color: #CAD2D3
+                    &::-moz-placeholder
+                    color: #CAD2D3
+            .what__forgot-password
+                .btn-forgot-password
+                    width: 280px
+                    height: 40px
+                    //left: calc(50% - 385px)
+                    text-align: right
+                    border: none
+                    background: #F6F6F4
+                    color: #518371
+                    font-family: Roboto
+                    font-style: normal
+                    font-weight: normal
+                    font-size: 14px
+                    line-height: 16px
+
+            .what__policy-info
+                .login-regulations
+                    text-align: center
+                    line-height: 1.4
+                    width: 276px
+                    height: 46px
+                    margin-top: 20%
+                    a
+                        font-weight: bold
+                        color: #78B0A0
+                .login-regulations-text
+                    width: 280px
+                    height: 36px
+                    font-family: Roboto
+                    font-style: normal
+                    font-weight: normal
+                    font-size: 14px
+                    line-height: 16px
+                    text-align: center
+                    color: #B4B9BA
+            .what__sing-btn
+                max-width: 283px
+                width: 100%
+                text-align: center
+                .btn-login
+                    width: 220px
+                    height: 40px
+                    text-align: center
+                    background: #518371
+                    border-radius: 20px
+                    color: #ffffff
+                    border: none
+                    margin-bottom: 4%
+                    &:disabled
+                        background: #B4B9BA
+                        //color: #000000
+                    &:disabled:hover
+                        background: #78B0A0
+                    &:hover
+                        background: #65a38c
+                    span
+                        font-family: BPreplay
+                        font-style: normal
+                        font-weight: normal
+                        font-size: 16px
+                        line-height: 19px
+                .btn-sing_in-link-redirect
+                    width: 100%
+                    height: 30px
+                    left: 0
+                    bottom: 16px
+                    margin: auto
+                    padding-top: 10%
+                    font-family: Roboto
+                    font-style: normal
+                    font-weight: normal
+                    font-size: 20px
+                    text-align: center
+                    background: #F6F6F4
+                    border-top: 1px solid #518371
+                    border-right: none
+                    border-left: none
+                    border-bottom: none
+                    a
+                        color: #78B09F
+            .what__qrcode-zone
+                margin-top: 10%
+                .qrInfo
+                    width: 285px
+                    height: 22px
+                    font-family: Roboto
+                    font-style: normal
+                    font-weight: normal
+                    font-size: 14px
+                    line-height: 16px
+                    text-align: center
+                    color: #B4B9BA
+                .qrCode-zone
+                    /* We recommend you to download a Green Pin mobile app. */
+                    display: flex
+                    flex-direction: row
+                    width: 285px
+                    height: 140px
+                    margin-top: 2%
+                    .qrCode
+                        flex: 1 1 50%
+                        height: 136.46px
+                        margin: 0 5px
+                        border: none
+                        background: inherit
+                        img
+                            width: 100%
+                            margin: 0
+.error-login
+    //position: absolute
+    height: 100%
+    left: calc(50% - 280px/2)
+    top: calc(50% - 140px/2 + 28px)
+    background: #F6F6F4
+    color: red
+    font-family: Roboto
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+.errorForms
+    color: red
+    font-size: 14px
+    font-style: italic
+    width: 260px
+    height: 40px
+    margin-top: 8px
+    margin-bottom: 8px
